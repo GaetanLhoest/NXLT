@@ -1,0 +1,31 @@
+quicksort (vector[], left, right)
+{
+	if (left < right)
+	{
+		i ,last = left + 1, left
+		while (i <= right)
+		{
+			if (vector[i] < vector[left])
+			{
+				last = last + 1
+				swap (vector, last, i)
+			}
+			i = i + 1
+		}
+		swap (vector, left, last)
+		quicksort (vector, left, last)
+		quicksort (vector, last + 1, right)
+	}
+}
+swap (vector[], i, j)
+{
+
+	tmp, vector[i], vector[j] = vector[i], vector[j], tmp
+}
+main()
+{
+	new vector[10] = 42,15,27,34,43,5,128,1,9,9
+	print(vector)
+	quicksort(vector, 0, 9 )
+	print(vector)
+}

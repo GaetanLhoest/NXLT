@@ -1,0 +1,27 @@
+Couldn't import dot_parser, loading of dot files will not be possible.
+['tamere(sucedesbites) \n', '{\n', 'a = 5\n', 'b = caca = pd = sex = 5\n', '}\n']
+LexToken(IDENTIFIER,'tamere',1,0)
+LexToken(LPAREN,'(',1,6)
+LexToken(IDENTIFIER,'sucedesbites',1,7)
+LexToken(RPAREN,')',1,19)
+LexToken(NEWLINE,'\n',1,21)
+LexToken(LBRACE,'{',2,22)
+LexToken(NEWLINE,'\n',2,23)
+LexToken(IDENTIFIER,'a',3,24)
+LexToken(EQUALS,'=',3,26)
+LexToken(NUMBER,5,3,28)
+LexToken(NEWLINE,'\n',3,29)
+LexToken(IDENTIFIER,'b',4,30)
+LexToken(EQUALS,'=',4,32)
+LexToken(IDENTIFIER,'caca',4,34)
+LexToken(EQUALS,'=',4,39)
+LexToken(IDENTIFIER,'pd',4,41)
+LexToken(EQUALS,'=',4,44)
+LexToken(IDENTIFIER,'sex',4,46)
+LexToken(EQUALS,'=',4,50)
+LexToken(NUMBER,5,4,52)
+LexToken(NEWLINE,'\n',4,53)
+LexToken(RBRACE,'}',5,54)
+LexToken(NEWLINE,'\n',5,55)
+
+

@@ -1,0 +1,18 @@
+prime( n)
+{
+        i = 2
+        while(i < n/2)
+        {
+                if ( n % i == 0)
+                {
+                        out 0
+                }
+            i = i + 1
+        }
+        out 1
+}
+main()
+{
+        x = prime(97)
+        print(x)
+}

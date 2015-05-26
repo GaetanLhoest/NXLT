@@ -1,0 +1,23 @@
+tamere(sucedesbites) 
+{
+	a = b = c = 69
+
+	if(a == b){
+		x = 57
+	}
+	else{
+		x = 58
+	}
+
+	x = x + a + b
+
+	a = x
+
+}
+
+
+
+
+
+
+
